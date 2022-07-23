@@ -49,7 +49,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         TRNS,FN2, FN3, FN4, TRNS,FN5, TRNS,PGUP,UP,  PGDN,PSCR,SLCK,PAUS,INS,  \
         TRNS,FN6, VOLD,VOLU,MUTE,FN7, HOME,LEFT,DOWN,RGHT,BSPC,DEL,      TRNS, \
         TRNS,     APP, TRNS,FN8, TRNS,TRNS,END, TRNS,TRNS,TRNS,TRNS,     TRNS, \
-        TRNS,TRNS,TRNS,          FN1,                     TRNS,TRNS,TRNS,TRNS),
+        TRNS,TRNS,TRNS,          TRNS,                    TRNS,TRNS,FN1, TRNS),
 };
 const uint16_t PROGMEM fn_actions[] = {
     /* Poker Layout */
