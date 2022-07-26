@@ -48,7 +48,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL,  \
         TRNS,FN2, FN3, FN4, TRNS,FN5, TRNS,PGUP,UP,  PGDN,PSCR,SLCK,PAUS,INS,  \
         TRNS,FN6, VOLD,VOLU,MUTE,FN7, HOME,LEFT,DOWN,RGHT,BSPC,DEL,      TRNS, \
-        TRNS,     APP, TRNS,FN8, TRNS,TRNS,END, TRNS,TRNS,TRNS,TRNS,     TRNS, \
+        TRNS,     APP, TRNS,TRNS,FN8, TRNS,END, TRNS,TRNS,TRNS,TRNS,     TRNS, \
         TRNS,TRNS,TRNS,          TRNS,                    TRNS,TRNS,FN1, TRNS),
 };
 const uint16_t PROGMEM fn_actions[] = {
@@ -60,6 +60,6 @@ const uint16_t PROGMEM fn_actions[] = {
     [4] = ACTION_MODS_KEY(MOD_LCTL, KC_K),
     [5] = ACTION_KEY(KC_EQUAL),
     [6] = ACTION_KEY(KC_APPLICATION),
-    [7] = ACTION_MODS_KEY(MOD_LCTL | MOD_LSFT, KC_ESCAPE),
+    [7] = ACTION_MODS_KEY(MOD_LSFT, KC_MINUS),
     [8] = ACTION_KEY(KC_MINUS),
 };
